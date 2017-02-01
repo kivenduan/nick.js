@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="global.css"/>
+	<script src="../js/nick.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<div class="wrap">
+			<h1 class="title">Nick.js基础选择器的使用</h1>
+			
+			<button>标签选择器</button>
+			<button>类名选择器</button>
+			<button>ID选择器</button>
+			<button>后代选择器</button>
+			<button>子级选择器</button>
+			<button>通配符选择器</button>
+			
+			<div class="con">
+				<h2>选择标签名为h2的元素</h2>
+				<h2>选择标签名为h2的元素</h2>
+				<div class="nick">选择类名为nick的元素</div>
+				<p class="nick">选择类名为nick的元素</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		
+		//1.选择标签名为h2的元素
+		
+		$('h2').css('border','2px solid pink');
+		
+		//1.选择类名为nick的元素
+		
+		$('.nick').css('border','2px solid blue');
+		
+		
+		
+	</script>
+</html>
